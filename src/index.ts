@@ -10,3 +10,5 @@ export * from './buildSceneObjects';
 export * from './loadSceneFromJson';
 export * from './helper_easing_bezier';
 export * from './validate_sequencer';
+export * from './serializeScene';
+export * from './oracle';
