@@ -9,5 +9,8 @@
 		"rootDir": "src",
 		"declaration": true,
 		"emitDeclarationOnly": true
-	}
+	},
+	"include": [
+		"src/**/*.ts"
+	]
 }
