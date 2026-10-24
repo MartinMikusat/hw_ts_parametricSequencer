@@ -200,7 +200,8 @@ export const sortKeyframesForMarkerPositions = (
 			cameraKeyframes: sortedCameraKeyframes,
 			audioKeyframes: sortedAudioKeyframes,
 			lightKeyframes: sortedLightKeyframes,
-			lights: separatedKeyframes.lights
+			lights: separatedKeyframes.lights,
+			zeroCamera: separatedKeyframes.zeroCamera
 		};
 	}
 

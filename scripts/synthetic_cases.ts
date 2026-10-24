@@ -310,5 +310,9 @@ export const SYNTHETIC_CASES: Record<string, OracleCaseInput> = {
 			model('a.2', 'a', { time: abs(1), pickable: false })
 		]
 	}),
+	camera_only_zero_camera: scene([], {
+		cameraKeyframes: [camera('cam.1', { time: abs(1), duration: 1, zoom: 40, rotationY: 30 })],
+		zeroCamera: { target: v3(2, 3, 4), rotationX: 15, rotationY: 25, zoom: 77 }
+	}),
 	empty_scene: scene([], {})
 };
